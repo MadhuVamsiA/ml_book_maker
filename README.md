@@ -15,10 +15,12 @@ https://tug.org/texlive/doc/texlive-en/texlive-en.html
 
 # MacOS:
 Use MacTeX, which is a TeX Live distribution for Mac:
+
 brew install --cask mactex
 
 # Linux:
 Install TeX Live using your package manager. For example, on Ubuntu:
+
 sudo apt-get install texlive-full
 
 ## Install Dependencies
