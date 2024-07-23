@@ -1,7 +1,7 @@
 import json
 from env import Config
 import openai
-from configuration import CONFIG_PATH, SYNOPSIS_PATH
+from src.configuration import CONFIG_PATH, SYNOPSIS_PATH
 
 
 def load_env():

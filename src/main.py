@@ -1,8 +1,8 @@
-import content_generator
-import synopsis
-import review
-import pdfgenerator
-from configuration import CONFIG_PATH, SYNOPSIS_PATH, CHAPTERS_CONTENT_PATH, REVIEW_PATH
+import src.content_generator as content_generator
+import src.synopsis as synopsis
+import src.review as review
+import src.pdfgenerator as pdfgenerator
+from src.configuration import CONFIG_PATH, SYNOPSIS_PATH, CHAPTERS_CONTENT_PATH, REVIEW_PATH
 
 
 

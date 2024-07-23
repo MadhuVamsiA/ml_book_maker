@@ -1,8 +1,8 @@
 from env import Config
-import prompts
+import src.prompts as prompts
 import json
 import openai 
-from configuration import CONFIG_PATH, CHAPTERS_CONTENT_PATH
+from src.configuration import CONFIG_PATH, CHAPTERS_CONTENT_PATH
 
 model = "gpt-4"
 temperature = 0.5

@@ -1,7 +1,7 @@
 import json
 import openai
 from env import Config
-from configuration import CONFIG_PATH, REVIEW_PATH
+from src.configuration import CONFIG_PATH, REVIEW_PATH
 
 def load_env():
     openai.api_key = Config.OPENAI_API_KEY
