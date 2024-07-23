@@ -1,10 +1,10 @@
-from env import Config
+from src.env import Config
 import src.prompts as prompts
 import json
-import openai 
+import openai
 from src.configuration import CONFIG_PATH, CHAPTERS_CONTENT_PATH
 
-model = "gpt-4"
+model = "gpt-4o-mini"
 temperature = 0.5
 max_tokens =3500
 prompt = prompts.generate_prompt(book="book",book_title="book_title")

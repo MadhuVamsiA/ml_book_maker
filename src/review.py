@@ -1,6 +1,6 @@
 import json
 import openai
-from env import Config
+from src.env import Config
 from src.configuration import CONFIG_PATH, REVIEW_PATH
 
 def load_env():
